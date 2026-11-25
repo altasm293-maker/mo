@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>الأجهزة | مدار للابتوبات</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+
+<!-- القائمة العلوية -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a class="brand" href="index.html">
+
+            <span class="logo-mark">M</span>
+
+            مدار <b>للابتوبات</b>
+
+        </a>
+
+
+        <button class="menu-toggle" aria-label="فتح القائمة">
+            ☰
+        </button>
+
+
+        <nav class="nav-links" id="nav">
+
+            <a href="index.html">الرئيسية</a>
+
+            <a class="active" href="products.html">الأجهزة</a>
+
+            <a href="contact.html">تواصل معنا</a>
+
+        </nav>
+
+
+        <a class="nav-action" href="contact.html">
+            اطلب المساعدة ←
+        </a>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- عنوان الصفحة -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">● متجر مدار</span>
+
+        <h1>
+            اختر جهازك <em>بثقة.</em>
+        </h1>
+
+        <p>
+            تعرّف على مجموعة أجهزة مقترحة وقارن المواصفات الأساسية.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- المنتجات -->
+
+<section class="section products-section">
+
+    <div class="container">
+
+
+        <div class="products-heading">
+
+            <div>
+
+                <span class="eyebrow">تشكيلة الأجهزة</span>
+
+                <h2>أجهزة اللابتوب</h2>
+
+            </div>
+
+
+            <!-- تصنيف المنتجات -->
+
+            <div class="filters">
+
+                <button class="filter active" data-filter="all">
+                    الكل
+                </button>
+
+                <button class="filter" data-filter="study">
+                    للدراسة
+                </button>
+
+                <button class="filter" data-filter="work">
+                    للعمل
+                </button>
+
+                <button class="filter" data-filter="power">
+                    أداء قوي
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-grid">
+
+
+            <!-- الجهاز الأول -->
+
+            <article class="product" data-category="study">
+
+                <div class="product-img">
+
+                    <label>للدراسة</label>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85"
+                        alt="لابتوب فضي"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <small>فئة الاستخدام اليومي</small>
+
+                    <h3>StudyBook 14</h3>
+
+                    <p>
+                        خيار عملي للمهام الدراسية والتصفح والعمل المكتبي.
+                    </p>
+
+                    <ul>
+
+                        <li>Intel Core i5</li>
+
+                        <li>ذاكرة 8GB RAM</li>
+
+                        <li>تخزين 512GB SSD</li>
+
+                        <li>شاشة 14 بوصة</li>
+
+                    </ul>
+
+
+                    <div class="product-bottom">
+
+                        <b>2,499 ر.س</b>
+
+                        <a class="btn primary small order"
+                           href="#"
+                           data-product="StudyBook 14">
+
+                            اطلب عبر واتساب
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- الجهاز الثاني -->
+
+            <article class="product" data-category="work">
+
+                <div class="product-img">
+
+                    <label>للعمل</label>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=900&q=85"
+                        alt="لابتوب أسود"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <small>فئة الأعمال</small>
+
+                    <h3>ProWork 15</h3>
+
+                    <p>
+                        مناسب لتعدد المهام والعمل المكتبي والاجتماعات.
+                    </p>
+
+                    <ul>
+
+                        <li>Intel Core i7</li>
+
+                        <li>ذاكرة 16GB RAM</li>
+
+                        <li>تخزين 512GB SSD</li>
+
+                        <li>شاشة 15.6 بوصة</li>
+
+                    </ul>
+
+
+                    <div class="product-bottom">
+
+                        <b>3,299 ر.س</b>
+
+                        <a class="btn primary small order"
+                           href="#"
+                           data-product="ProWork 15">
+
+                            اطلب عبر واتساب
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- الجهاز الثالث -->
+
+            <article class="product" data-category="power">
+
+                <div class="product-img">
+
+                    <label>أداء قوي</label>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=900&q=85"
+                        alt="لابتوب أداء مرتفع"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <small>فئة الأداء المتقدم</small>
+
+                    <h3>Creator X</h3>
+
+                    <p>
+                        للمهام الإبداعية والبرامج التي تحتاج إلى أداء أعلى.
+                    </p>
+
+                    <ul>
+
+                        <li>Intel Core i7</li>
+
+                        <li>ذاكرة 16GB RAM</li>
+
+                        <li>تخزين 1TB SSD</li>
+
+                        <li>بطاقة رسومات منفصلة</li>
+
+                    </ul>
+
+
+                    <div class="product-bottom">
+
+                        <b>4,799 ر.س</b>
+
+                        <a class="btn primary small order"
+                           href="#"
+                           data-product="Creator X">
+
+                            اطلب عبر واتساب
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- الجهاز الرابع -->
+
+            <article class="product" data-category="study">
+
+                <div class="product-img">
+
+                    <label>خفيف الوزن</label>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=85"
+                        alt="لابتوب نحيف"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <small>فئة التنقل</small>
+
+                    <h3>AirNote 13</h3>
+
+                    <p>
+                        تصميم خفيف يناسب التنقل والمحاضرات والمهام اليومية.
+                    </p>
+
+                    <ul>
+
+                        <li>Intel Core i5</li>
+
+                        <li>ذاكرة 8GB RAM</li>
+
+                        <li>تخزين 256GB SSD</li>
+
+                        <li>شاشة 13.3 بوصة</li>
+
+                    </ul>
+
+
+                    <div class="product-bottom">
+
+                        <b>2,199 ر.س</b>
+
+                        <a class="btn primary small order"
+                           href="#"
+                           data-product="AirNote 13">
+
+                            اطلب عبر واتساب
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- الجهاز الخامس -->
+
+            <article class="product" data-category="work">
+
+                <div class="product-img">
+
+                    <label>متعدد الاستخدام</label>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85"
+                        alt="لابتوب في مساحة عمل"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <small>فئة الإنتاجية</small>
+
+                    <h3>OfficePlus 15</h3>
+
+                    <p>
+                        مناسب للمستندات والجداول والتطبيقات المكتبية.
+                    </p>
+
+                    <ul>
+
+                        <li>Intel Core i5</li>
+
+                        <li>ذاكرة 16GB RAM</li>
+
+                        <li>تخزين 512GB SSD</li>
+
+                        <li>شاشة 15.6 بوصة</li>
+
+                    </ul>
+
+
+                    <div class="product-bottom">
+
+                        <b>2,899 ر.س</b>
+
+                        <a class="btn primary small order"
+                           href="#"
+                           data-product="OfficePlus 15">
+
+                            اطلب عبر واتساب
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- الجهاز السادس -->
+
+            <article class="product" data-category="power">
+
+                <div class="product-img">
+
+                    <label>للمهام الثقيلة</label>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=900&q=85"
+                        alt="حاسوب محمول"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <small>فئة الأداء</small>
+
+                    <h3>PowerBook 16</h3>
+
+                    <p>
+                        شاشة أكبر ومواصفات مناسبة للمهام المتقدمة.
+                    </p>
+
+                    <ul>
+
+                        <li>Intel Core i7</li>
+
+                        <li>ذاكرة 32GB RAM</li>
+
+                        <li>تخزين 1TB SSD</li>
+
+                        <li>شاشة 16 بوصة</li>
+
+                    </ul>
+
+
+                    <div class="product-bottom">
+
+                        <b>5,299 ر.س</b>
+
+                        <a class="btn primary small order"
+                           href="#"
+                           data-product="PowerBook 16">
+
+                            اطلب عبر واتساب
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <p class="note">
+            الأسماء والمواصفات والأسعار والصور توضيحية.
+            حدّثها حسب المنتجات الفعلية المتوفرة لديك.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<a class="whatsapp"
+   href="https://wa.me/966500000000"
+   target="_blank"
+   rel="noopener"
+   aria-label="واتساب">
+
+    ☎
+
+</a>
+
+
+<footer>
+
+    <div class="container footer-inner">
+
+        <a class="brand footer-brand" href="index.html">
+            مدار <b>للابتوبات</b>
+        </a>
+
+        <p>
+            © <span class="year"></span>
+            مدار للابتوبات. جميع الحقوق محفوظة.
+        </p>
+
+        <div>
+
+            <a href="index.html">الرئيسية</a>
+
+            <a href="contact.html">تواصل معنا</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

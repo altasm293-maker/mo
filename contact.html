@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تواصل معنا | مدار للابتوبات</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+
+<!-- القائمة العلوية -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a class="brand" href="index.html">
+
+            <span class="logo-mark">M</span>
+
+            مدار <b>للابتوبات</b>
+
+        </a>
+
+
+        <button class="menu-toggle" aria-label="فتح القائمة">
+            ☰
+        </button>
+
+
+        <nav class="nav-links" id="nav">
+
+            <a href="index.html">الرئيسية</a>
+
+            <a href="products.html">الأجهزة</a>
+
+            <a class="active" href="contact.html">تواصل معنا</a>
+
+        </nav>
+
+
+        <a class="nav-action" href="products.html">
+            تصفح الأجهزة ←
+        </a>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- عنوان الصفحة -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">● نحن هنا للمساعدة</span>
+
+        <h1>
+            خلّنا نسمع <em>منك.</em>
+        </h1>
+
+        <p>
+            أرسل استفسارك أو تواصل معنا مباشرة عبر واتساب.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- محتوى التواصل -->
+
+<section class="section contact-section">
+
+    <div class="container contact-layout">
+
+
+        <div class="contact-copy">
+
+            <span class="eyebrow">تواصل مباشر</span>
+
+            <h2>يسعدنا خدمتك</h2>
+
+            <p>
+                سواء كنت تبحث عن جهاز للدراسة أو العمل
+                أو تحتاج إلى مقارنة المواصفات، اكتب لنا وسنساعدك.
+            </p>
+
+
+            <div class="contact-detail">
+
+                <i>☎</i>
+
+                <div>
+
+                    <b>الهاتف / واتساب</b>
+
+                    <a href="https://wa.me/966537978343"
+                       target="_blank"
+                       rel="noopener">
+
+                        +966 50 000 0000
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <i>⌖</i>
+
+                <div>
+
+                    <b>العنوان</b>
+
+                    <span>مكة المكرمة</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <i>◷</i>
+
+                <div>
+
+                    <b>ساعات العمل</b>
+
+                    </span>ا</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-box">
+
+                <b>تفضل التواصل السريع؟</b>
+
+                <p>
+                    اضغط على الزر لفتح واتساب برسالة جاهزة.
+                </p>
+
+                <a class="btn primary"
+                   href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%20%D8%A7%D9%84%D9%84%D8%A7%D8%A8%D8%AA%D9%88%D8%A8."
+                   target="_blank"
+                   rel="noopener">
+
+                    ابدأ محادثة واتساب ←
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- نموذج التواصل -->
+
+        <form class="contact-form" id="contactForm">
+
+            <h2>أرسل استفسارك</h2>
+
+            <p>
+                املأ البيانات التالية وسيتم تجهيز رسالة واتساب لك.
+            </p>
+
+
+            <label for="name">الاسم</label>
+
+            <input
+                id="name"
+                name="name"
+                required
+                placeholder="اكتب اسمك">
+
+
+            <label for="phone">رقم التواصل</label>
+
+            <input
+                id="phone"
+                name="phone"
+                type="tel"
+                required
+                placeholder="05xxxxxxxx">
+
+
+            <label for="subject">نوع الاستفسار</label>
+
+            <select id="subject" name="subject" required>
+
+                <option value="">اختر نوع الاستفسار</option>
+
+                <option>الاستفسار عن جهاز</option>
+
+                <option>مقارنة المواصفات</option>
+
+                <option>الأسعار والتوفر</option>
+
+                <option>استفسار آخر</option>
+
+            </select>
+
+
+            <label for="message">تفاصيل الرسالة</label>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="اكتب تفاصيل استفسارك..."></textarea>
+
+
+            <button class="btn primary submit" type="submit">
+
+                إرسال عبر واتساب ←
+
+            </button>
+
+
+            <small>
+                لن تُحفظ البيانات في الموقع؛ سيتم فتح واتساب لإرسال الرسالة بنفسك.
+            </small>
+
+        </form>
+
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- واتساب -->
+
+<a class="whatsapp"
+   href="https://wa.me/966500000000"
+   target="_blank"
+   rel="noopener"
+   aria-label="واتساب">
+
+    ☎
+
+</a>
+
+
+<footer>
+
+    <div class="container footer-inner">
+
+        <a class="brand footer-brand" href="index.html">
+            مدار <b>للابتوبات</b>
+        </a>
+
+        <p>
+            © <span class="year"></span>
+            مدار للابتوبات. جميع الحقوق محفوظة.
+        </p>
+
+        <div>
+
+            <a href="index.html">الرئيسية</a>
+
+            <a href="products.html">الأجهزة</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
